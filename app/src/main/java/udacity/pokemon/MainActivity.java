@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 return null;
             }
 
-            Log.e(TAG, "Response from url: " + jsonString);
+            Log.e(TAG, "Response from url: " + jsonString.toString());
             if (jsonString != null) {
                 try {
                     // DONE: Create a new JSONObject
